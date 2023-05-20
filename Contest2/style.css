@@ -1,0 +1,90 @@
+nav {
+    overflow: hidden;
+    background-color: #b32525;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  section.section1{
+    margin-top: 100px;
+  }
+
+  table.mainTable, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 20px;
+    margin-left: auto;  
+    margin-right: auto; 
+    text-align: center;
+    width:900px;
+    background-color: rgb(255, 217, 170);
+    border-radius: 5px;
+
+  }
+  
+  th{
+    padding:20px;
+    background-color: #b32525;
+    color: #f2f2f2;
+  }
+   
+  h1{
+    color: #b32525;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+  }
+  table.insideTable{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: bisque;
+  }
+
+  form{
+    border: 1px solid black;
+    margin-left: auto;  
+    margin-right: auto;
+    width: 900px;
+    height:570px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+  }
+  
+  label{
+    font-size: 17px;
+    color: #b32525;
+  }
+  input{
+    width:100%;
+    height:30px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  button{
+    margin-top: 20px;
+    width: 100%;
+    height:30px;
+    color:white;
+    background-color: #b32525;
+    border-radius: 3px;
+    font-weight: bold;
+   
+  }
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=1x&id=97781&format=png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#section2">Register</a>
+            <a href="#section3">Books</a>
+        </nav>
+    </header>
+    <main>
+        <section class="section1" id="section3">
+            <h1><u>Books</u></h1>
+            <table class="mainTable">
+                <thead>
+                    <tr>
+                        <th>Book Id</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <a href="">A Better India: A Better World</a>
+                            <table class="insideTable">
+                                <tbody>
+                                    <tr><td>Publication Date: 20/10/2003</td></tr>
+                                    <tr><td>Publication Count: 250</td></tr>
+                                    <tr><td>ISBN: 978-93-5163-389-1</td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>Narayana Murthy</td>
+                        <td>History</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <a href="">A Woman's Life</a>
+                            <table class="insideTable">
+                                <tbody>
+                                    <tr><td>Publication Date: 20/10/2004</td></tr>
+                                    <tr><td>Publication Count: 256</td></tr>
+                                    <tr><td>ISBN: 123-4561237564</td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>Guy de Maupassant</td>
+                        <td>Drama</td>
+                        <td>Not Available</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <a href="">Harry Potter</a>
+                            <table class="insideTable">
+                                <tbody>
+                                    <tr><td>Publication Date: 05/10/2003</td></tr>
+                                    <tr><td>Publication Count: 150</td></tr>
+                                    <tr><td>ISBN: 321-4561237890</td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>JK Rowlings</td>
+                        <td>Adventure</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <a href="">2 States</a>
+                            <table class="insideTable">
+                                <tbody>
+                                    <tr><td>Publication Date: 20/10/2003</td></tr>
+                                    <tr><td>Publication Count: 250</td></tr>
+                                    <tr><td>ISBN: 123-4561237890</td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>Chetan Bhagat</td>
+                        <td>Romance</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <a href="">Ain - i - Akbari</a>
+                            <table class="insideTable">
+                                <tbody>
+                                    <tr><td>Publication Date: 20/10/2003</td></tr>
+                                    <tr><td>Publication Count: 250</td></tr>
+                                    <tr><td>ISBN: 123-4561237890</td></tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>Abul Fazl</td>
+                        <td>Biography</td>
+                        <td>Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="section2">
+            <h1><u>Registration Form</u></h1>
+            <form method="Post">
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter First Name" required></input>
+                </div>
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required></input>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email Address" required></input>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob"required></input>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="18" max="60" required></input>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required></input>
+                </div>
+                <div>
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Password" required></input>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
