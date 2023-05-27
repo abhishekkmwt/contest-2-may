@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+  
+}
+.navbar{
+  
+width: 100%;
+height: 70px;
+display: flex;
+justify-content: space-evenly;
+background: rgba(107, 20, 45, 0.72);
+position: fixed;
+
+}
+
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.navbar .item{
+  display: flex;
+width: 30%;
+justify-content: end;
+align-items: center;
+column-gap: 57px;
+}
+
+.item a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #90ccb3;
+  
+}
+
+.logo h1{
+  color:#90ccb3;
+  font-size: 32px;
+}
+
+.img-cover img{
+  width: 100%;
+}
